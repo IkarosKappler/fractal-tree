@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Document Title</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="Content Description" />
+    <meta name="keywords" content="any, keywords, you, want" />
+    <meta name="author" content="Ikaros Kappler" />
+    <meta name="date" content="2015-04-22" />
+
+    <script src="jquery-3.2.1.min.js"></script>
+    <script src="main.js"></script>
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+
+  </head>
+  <body>
+    <div class="input-label">Depth:</div> <input type="number" id="depth" min="1" max="1000" value="12" /><br/>
+    <div class="input-label">Start Angle:</div> <input type="number" id="start_angle" min="-180" max="180" value="-76" />&#176;<br/>
+    <div class="input-label">Left Branch Angle:</div> <input type="number" id="left_branch_angle" min="-180" max="180" value="29" />&#176;<br/>
+    <div class="input-label">Right Branch Angle:</div> <input type="number" id="right_branch_angle" min="-180" max="180" value="20" />&#176;<br/>
+    <div class="input-label">Left Length Factor:</div> <input type="number" id="left_length_factor" min="0.0" max="2.0" step="0.01" value="1.0" /><br/>
+    <div class="input-label">Right Length Factor:</div> <input type="number" id="right_length_factor" min="0.0" max="2.0" step="0.01" value="1.0" /><br/>
+    <canvas id="canvas" width="800" height="800"></canvas>
+    
+ 
+</body>
+</html>

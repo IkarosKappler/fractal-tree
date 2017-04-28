@@ -1,0 +1,14 @@
+
+body, html {
+    font-family : Sans-serif;
+}
+	 
+
+input {
+    width : 40px;
+}
+
+div.input-label {
+    display : inline-block;
+    width : 200px;
+}
